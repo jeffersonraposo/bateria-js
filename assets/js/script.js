@@ -33,7 +33,13 @@ document.querySelectorAll('.key').forEach(key => {
     key.addEventListener('click', () => {
         playSound(key.getAttribute('data-key'));
     });
+
+    key.addEventListener('touchend', (e) => {
+        playSound(key.getAttribute('data-key'));
+        e.preventDefault(); // Previene comportamento padrão em dispositivos móveis
+    });
 });
+
 
 function playComposition(songArray) {
     let wait = 0;
