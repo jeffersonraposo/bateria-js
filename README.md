@@ -1,5 +1,5 @@
 ##
-<h1 align="center">Projeto Calculadora com JavaScript</h1>
+<h1 align="center">Projeto Bateria com JavaScript</h1>
 
 <p align="center">
 	<img alt="Status Concluído" src="https://img.shields.io/badge/STATUS-CONCLU%C3%8DDO-brightgreen">
