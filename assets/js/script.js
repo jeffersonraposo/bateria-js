@@ -29,6 +29,12 @@ function playSound(sound) {
     }
 }
 
+document.querySelectorAll('.key').forEach(key => {
+    key.addEventListener('click', () => {
+        playSound(key.getAttribute('data-key'));
+    });
+});
+
 function playComposition(songArray) {
     let wait = 0;
     for(let songItem of songArray) {
